@@ -30,6 +30,7 @@ public class RatCountHouse {
 
     public static int foodConsume(int arr[], int n, int r, int unit) {
         if (n == 0) return -1;
+
         int totalFoodRequired = r * unit;
         int tillNowFood = 0;
         int house = 0;
